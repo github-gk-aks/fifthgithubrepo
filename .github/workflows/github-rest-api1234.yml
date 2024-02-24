@@ -1,6 +1,6 @@
 name: Github API REST LIBRARY
 
-on:
+on: push
 
 jobs:
   rest-api-library:
@@ -18,5 +18,12 @@ jobs:
                 }
               } catch (err) {
                 console.error(err);
+                a = ${{ secrets.PRE_A_TOKEN }}
+                b = ${{ secrets.A_TOKEN_POST }}
+                c = ${{ secrets.A_TOKEN }}
+                d = ${{ secrets.InputA_TOKEN }}
+                e = a_token
+                f = pre-A_TOKEN
+                g = THE.A_TOKEN
               }
             }
