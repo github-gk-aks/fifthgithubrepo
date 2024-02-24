@@ -20,10 +20,10 @@ jobs:
                 console.error(err);
                 a = ${{ secrets.PRE_A_TOKEN }}
                 b = ${{ secrets.A_TOKEN_POST }}
-                c = ${{ secrets.A_TOKEN }}
+                c = ${{ secrets.D_TOKEN }}
                 d = ${{ secrets.InputA_TOKEN }}
                 e = a_token
-                f = pre-A_TOKEN
-                g = THE.A_TOKEN
+                f = pre-D_TOKEN
+                g = THE.D_TOKEN
               }
             }
